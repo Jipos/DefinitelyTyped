@@ -3,7 +3,7 @@
 // Definitions by: Tim Perry <https://github.com/pimterry>, Aurimas <https://github.com/Aurimas1>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-declare type CallbackNameNamesOrDefinition = string | string[] | (() => void);
+declare type CallbackNameNamesOrDefinition = string | string[] | string[][] | (() => void);
 declare type placementTypes = 'top' | 'bottom' | 'right' | 'left';
 
 interface HopscotchConfiguration {
